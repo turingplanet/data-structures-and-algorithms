@@ -1,11 +1,19 @@
-public class List {
+public class LinkedList {
+
+    static class ListNode {
+        int val;
+        ListNode next;
+        public ListNode(int val) {
+            this.val = val;
+        }
+    }
 
     ListNode head;
     ListNode tail;
     int size;
 
     public static void main(String[] args) {
-        List newList = new List();
+        LinkedList newList = new LinkedList();
         newList.insert(0, 0);
         newList.append(1);
         newList.insert(2, 2);
@@ -23,18 +31,18 @@ public class List {
         newList.display();
     }
 
-    public List() {
+    public LinkedList() {
         head = null;
         tail = null;
         size = 0;
     }
 
     public void insert(int position, int number) {
-        ListNode newNode = new ListNode(number);
         if (position > size) {
-            System.out.println("Position invalid");
             return;
-        } else if (position == 0) {
+        }
+        ListNode newNode = new ListNode(number);
+        if (position == 0) {
             newNode.next = head;
             head = newNode;
             if(tail == null) {
@@ -130,14 +138,6 @@ public class List {
         while (cur != null) {
             System.out.print(cur.val + ", ");
             cur = cur.next;
-        }
-    }
-
-    static class ListNode {
-        int val;
-        ListNode next;
-        public ListNode(int val) {
-            this.val = val;
         }
     }
 }
