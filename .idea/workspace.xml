@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1424b053-33d2-4ec1-8617-28dcb0f48f20" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/class5-stack-queue/ListQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class5-stack-queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/class5-stack-queue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class5-stack-queue/ListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/class5-stack-queue/ListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class5-stack-queue/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/class5-stack-queue/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/data-structures-and-algorithms/ListStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/data-structures-and-algorithms/ListStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/data-structures-and-algorithms/Stack.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,15 +21,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class5-stack-queue/ListQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class5-stack-queue/ArrayStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="715">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class5-stack-queue/ListStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+              <folding>
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class5-stack-queue/ArrayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding>
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -51,9 +82,10 @@
         <option value="$PROJECT_DIR$/class4-list/List.java" />
         <option value="$PROJECT_DIR$/class4-list/LinkedList.java" />
         <option value="$PROJECT_DIR$/class5-stack-queue/Stack.java" />
+        <option value="$PROJECT_DIR$/class5-stack-queue/ListQueue.java" />
+        <option value="$PROJECT_DIR$/class5-stack-queue/ArrayStack.java" />
         <option value="$PROJECT_DIR$/class5-stack-queue/ListStack.java" />
         <option value="$PROJECT_DIR$/class5-stack-queue/ArrayQueue.java" />
-        <option value="$PROJECT_DIR$/class5-stack-queue/ListQueue.java" />
       </list>
     </option>
   </component>
@@ -77,8 +109,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="933" />
     <option name="y" value="23" />
-    <option name="width" value="1422" />
+    <option name="width" value="1627" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -139,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -167,6 +199,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -208,6 +241,11 @@
       <module name="data-structures-and-algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="ArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayStack" />
+      <module name="data-structures-and-algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList" />
       <module name="data-structures-and-algorithms" />
@@ -220,11 +258,6 @@
     </configuration>
     <configuration name="ListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ListStack" />
-      <module name="data-structures-and-algorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack" />
       <module name="data-structures-and-algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -271,7 +304,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.Stack" />
+      <item itemvalue="Application.ArrayStack" />
       <item itemvalue="Application.ListStack" />
       <item itemvalue="Application.ArrayQueue" />
       <item itemvalue="Application.ListQueue" />
@@ -280,8 +313,8 @@
       <list>
         <item itemvalue="Application.ListQueue" />
         <item itemvalue="Application.ArrayQueue" />
+        <item itemvalue="Application.ArrayStack" />
         <item itemvalue="Application.ListStack" />
-        <item itemvalue="Application.Stack" />
         <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
@@ -302,15 +335,16 @@
       <workItem from="1583170443890" duration="916000" />
       <workItem from="1583250676942" duration="2294000" />
       <workItem from="1583340761988" duration="1797000" />
-      <workItem from="1583478735739" duration="1121000" />
+      <workItem from="1583478735739" duration="1149000" />
+      <workItem from="1583552942097" duration="268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13792000" />
+    <option name="totallyTimeSpent" value="14088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1422" height="1417" extended-state="0" />
+    <frame x="933" y="23" width="1627" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -323,13 +357,14 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.27727273" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29492754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2605678" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -341,7 +376,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +385,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/class5-stack-queue/ListQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/class4-list/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -358,7 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class5-stack-queue/Stack.java">
+    <entry file="file://$PROJECT_DIR$/class5-stack-queue/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
@@ -390,7 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class5-stack-queue/Stack.java">
+    <entry file="file://$PROJECT_DIR$/class5-stack-queue/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
@@ -415,7 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class5-stack-queue/Stack.java">
+    <entry file="file://$PROJECT_DIR$/class5-stack-queue/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
@@ -453,17 +494,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class5-stack-queue/Stack.java">
+    <entry file="file://$PROJECT_DIR$/class5-stack-queue/ListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class5-stack-queue/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class5-stack-queue/ListStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="505">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
             <element signature="e#123#124#0" expanded="true" />
             <element signature="e#161#162#0" expanded="true" />
@@ -473,19 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class5-stack-queue/ArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class5-stack-queue/ListQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
