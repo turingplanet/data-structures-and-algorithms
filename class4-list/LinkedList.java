@@ -107,27 +107,23 @@ public class LinkedList {
     }
 
     public int search(int number) {
-        ListNode prev = head;
         ListNode cur = head;
-        for(int index = 0; prev != null && cur != null; index++) {
+        for(int index = 0; cur != null; index++) {
             if(cur.val == number) {
                 return index;
             }
-            prev = cur;
             cur = cur.next;
         }
         return -1;
     }
 
     public int update(int oldValue, int newValue) {
-        ListNode prev = head;
         ListNode cur = head;
-        for(int index = 0; prev != null && cur != null; index++) {
+        for(int index = 0; cur != null; index++) {
             if(cur.val == oldValue) {
                 cur.val = newValue;
                 return index;
             }
-            prev = cur;
             cur = cur.next;
         }
         return -1;
