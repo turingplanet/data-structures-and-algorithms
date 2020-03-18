@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/class4-list" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/class5-stack-queue" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/class6-hash-table" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/class7-tree" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
