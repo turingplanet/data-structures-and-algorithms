@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1424b053-33d2-4ec1-8617-28dcb0f48f20" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/class8-heap/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data-structures-and-algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data-structures-and-algorithms.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class7-tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/class7-tree/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class7-tree/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/class7-tree/TreeTraversal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,14 +18,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class7-tree/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="15">
               <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding>
                 <element signature="e#170#171#0" expanded="true" />
                 <element signature="e#212#213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class8-heap/PriorityQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="671">
+              <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1585#1586#0" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +85,7 @@
         <option value="$PROJECT_DIR$/class7-tree/Tree.java" />
         <option value="$PROJECT_DIR$/class7-tree/TreeTraversal.java" />
         <option value="$PROJECT_DIR$/class7-tree/BST.java" />
+        <option value="$PROJECT_DIR$/class8-heap/PriorityQueue.java" />
       </list>
     </option>
   </component>
@@ -154,8 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -187,12 +202,14 @@
             <path>
               <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="class7-tree" type="462c0819:PsiDirectoryNode" />
+              <item name="class8-heap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BST">
+  <component name="RunManager" selected="Application.PriorityQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -243,8 +260,8 @@
       <module name="data-structures-and-algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListQueue" />
+    <configuration name="PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PriorityQueue" />
       <module name="data-structures-and-algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -296,18 +313,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.ListQueue" />
       <item itemvalue="Application.HashMap" />
       <item itemvalue="Application.Tree" />
       <item itemvalue="Application.BST" />
+      <item itemvalue="Application.PriorityQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PriorityQueue" />
         <item itemvalue="Application.BST" />
         <item itemvalue="Application.Tree" />
         <item itemvalue="Application.HashMap" />
         <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.ListQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -336,12 +353,13 @@
       <workItem from="1584502321653" duration="65000" />
       <workItem from="1585096577543" duration="3398000" />
       <workItem from="1585173877103" duration="4148000" />
-      <workItem from="1585265042691" duration="19000" />
+      <workItem from="1585265042691" duration="632000" />
+      <workItem from="1585518814559" duration="1335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25962000" />
+    <option name="totallyTimeSpent" value="27910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1422" height="1417" extended-state="0" />
@@ -349,33 +367,33 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32954547" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287879" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287879" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27651516" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27651516" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19130434" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1942029" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32954547" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,13 +403,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class7-tree/TreeTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class5-stack-queue/ListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -769,11 +780,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class7-tree/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="15">
           <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding>
             <element signature="e#170#171#0" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class8-heap/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
           </folding>
         </state>
       </provider>
