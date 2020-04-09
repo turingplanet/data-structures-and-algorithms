@@ -5,14 +5,19 @@ public class ListGraph {
     ArrayList<ArrayList<Integer>> graphs;
 
     public static void main(String[] args) {
-        ListGraph graph = new ListGraph(5);
-        graph.addEdge(0, 5);
-        graph.addEdge(0, 4);
-        graph.addEdge(0, 3);
+        ListGraph graph = new ListGraph(6);
+        graph.addEdge(0, 1);
         graph.addEdge(0, 2);
+        graph.addEdge(1, 3);
+        graph.addEdge(1, 4);
+        graph.addEdge(2, 4);
+//        graph.addEdge(3, 5);
+        graph.addEdge(3, 4);
+//        graph.addEdge(4, 5);
         graph.print();
-        graph.removeEdge(0, 2);
-        graph.print();
+        new GraphTraversal(graph).DFS();
+        System.out.println();
+        new GraphTraversal(graph).BFSTraversal(0);
     }
 
     public ListGraph(int v) {

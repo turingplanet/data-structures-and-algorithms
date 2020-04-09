@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1424b053-33d2-4ec1-8617-28dcb0f48f20" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/class9-graph/ListGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data-structures-and-algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data-structures-and-algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class9-graph/GraphTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class9-graph/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/class9-graph/ListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/data-structures-and-algorithms/ListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/data-structures-and-algorithms/ListGraph.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,25 +69,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListGraph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class9-graph/ListGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="555">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
               <folding>
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
                 <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class7-tree/TreeTraversal.java">
+      <file leaf-file-name="GraphTraversal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class9-graph/GraphTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="765">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -124,6 +126,7 @@
         <option value="$PROJECT_DIR$/class8-heap/MaxHeap.java" />
         <option value="$PROJECT_DIR$/class9-graph/Graph.java" />
         <option value="$PROJECT_DIR$/class9-graph/ListGraph.java" />
+        <option value="$PROJECT_DIR$/class9-graph/GraphTraversal.java" />
       </list>
     </option>
   </component>
@@ -132,7 +135,6 @@
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
     <exe-path />
-    <annotation-enable>false</annotation-enable>
     <other-services-enabled>false</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
@@ -147,9 +149,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1422" />
     <option name="y" value="23" />
-    <option name="width" value="1138" />
+    <option name="width" value="1422" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -210,7 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,7 +254,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +267,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -401,15 +402,16 @@
       <workItem from="1585518814559" duration="1393000" />
       <workItem from="1585610324688" duration="1336000" />
       <workItem from="1585719634163" duration="2595000" />
-      <workItem from="1586302442364" duration="1060000" />
+      <workItem from="1586302442364" duration="1580000" />
+      <workItem from="1586396327172" duration="3315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32959000" />
+    <option name="totallyTimeSpent" value="36794000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1422" y="23" width="1138" height="1417" extended-state="0" />
+    <frame x="0" y="23" width="1422" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -426,7 +428,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.27651516" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25638688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20724638" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -462,17 +464,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class7-tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#113#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class7-tree/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -830,17 +821,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/class9-graph/Graph.java" />
     <entry file="file://$PROJECT_DIR$/class7-tree/TreeTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class9-graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -869,13 +854,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class9-graph/ListGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="555">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding>
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
             <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class9-graph/GraphTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -966,6 +959,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
